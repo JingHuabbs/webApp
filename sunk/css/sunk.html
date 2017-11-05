@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no">
+    <title>搜索-鲸鱼阅读</title>
+  
+   
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+	<script src="jquery-3.2.1.min.js"></script>
+    <script charset="utf-8">
+	$(function(){
+		var tste = $("#text");
+		var ul = $(".show-ul");
+		var lias=ul.children();
+		var but = $("button")
+		var txt=tste.val();
+		tste.on("keyup",function(){
+			var txt=tste.val();
+			$.ajax({
+				type:"get",
+				url:"http://suggest.h.qhimg.com/index.php?word="+txt,
+				dataType:"jsonp",
+				jsonp:"cb",
+				success:function(data){
+					ul.empty();
+					var datas=data.s;
+					$.each(datas,function(i,v){
+						var lis = $("<li ></li>");
+						var lk = $('<a href="http://m.jingyu.com/search?kw='+v+'"></a>');
+						lk.html(v);
+						lis.append(lk);
+						ul.append(lis);
+					})
+				}
+			});
+			but.click(function(){
+				var txt = tste.val();
+				window.location.href="http://m.jingyu.com/search?kw="+txt;
+			})
+			$(document).click(function(){
+				uls.empty();
+			})
+			tste.click(function(e){
+				e.stopPropagation();
+				tste.keyup()
+			})
+		})
+	})	
+</script>	
+	
+	
+<header>
+    <div class="hea">
+        <div class="go-back">
+            <a href="../../nboy.html">
+                <img src="../images/go-back.png" alt="">
+            </a>
+        </div>
+        <h3>搜索</h3>
+        <div class="hea-ri">
+            <ul>
+                <li><a href="../../nboy.html"><img src="../../images/homepage.png" alt=""></a></li>
+                <li><a href="#"><img src="../../images/me.png" alt=""></a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="sunk">
+        <form>
+            <input type="text" placeholder="请输入小说名称" id="text">
+            <button>搜索</button>
+        </form>
+    </div>
+</header>
+<div class="show">
+    <ul class="show-ul"></ul>
+</div>
+</body>
+</html>

@@ -1,0 +1,216 @@
+*{
+    margin:0;
+    padding:0;}
+a{
+    color: #333;
+    text-decoration: none;
+}
+html,body{
+    width:100%;
+    height:100%;
+}
+body{
+    background: #f0ece5;
+    display: flex;
+    flex-direction:column;
+}
+header{
+    width:100%;
+    height:3rem;
+}
+header .hea{
+    display: flex;
+    justify-content: space-between;
+    width:100%;
+    height:3rem;
+    background: #4a576c;
+}
+header .hea .go-back{
+    width:2rem;
+    height:2rem;
+    margin:0.5rem 0 0 0.5rem;
+}
+header .hea .go-back a{
+    width:100%;
+    height:100%;
+}
+header .hea .go-back a img{
+    width:2rem;
+    height:2rem;
+}
+header .hea .hea-ri{
+    width:10rem;
+    height:100%;
+}
+header .hea .hea-ri ul{
+    display: flex;
+    list-style: none;
+    width:10rem;
+    height:100%;
+    justify-content:center;
+    align-items: center;
+}
+header .hea .hea-ri ul li{
+    flex: 1;
+}
+header .hea .hea-ri ul li img{
+    width:1.5rem;
+    height:1.5rem;
+}
+main{
+    width: 100%;
+    height:100%;
+    overflow-y:auto;
+}
+main .summary{
+    width:100%;
+    height:14rem;
+}
+main .summary .sum-no{
+    width:100%;
+    height:1rem;
+}
+main .summary .sum-son{
+    height:13rem;
+    margin-left:2rem;
+    margin-right:1.68rem;
+    border-bottom:1px dashed #adaba6;
+}
+main .summary .sum-son .book-name{
+    color: #000;
+    font-size:1.2rem;
+}
+main .summary .sum-son .book-img{
+    float: left;
+    display: block;
+    width:8rem;
+    height:10rem;
+}
+main .summary .sum-son .book-img img{
+    width:8rem;
+    height:10rem;
+}
+main .summary .sum-son .book-num{
+    height:10rem;
+    margin-left: 10.2rem;
+}
+main .summary .sum-son .book-start{
+    position: relative;
+    width:7.25rem;
+    height:1.4rem;
+}
+main .summary .sum-son .book-start div:nth-child(1){
+    position: absolute;
+    top:0;
+    left:0;
+    width:7.25rem;
+    height:1.4rem;
+    background: url("../images/startnoco.png") no-repeat;
+    background-size: 7.25rem 1.4rem;
+}
+main .summary .sum-son .book-start div:nth-child(2){
+    position: absolute;
+    top:0;
+    left:0;
+    z-index:10;
+    width:91%;
+    height:1.4rem;
+    background: url("../images/startcolor.png") no-repeat;
+    background-size: 7.25rem 1.4rem;
+}
+main .summary .sum-son .book-num p i{
+    font-weight:normal;
+    font-style:normal;
+}
+main .summary .sum-son .book-num .or{
+    display: flex;
+    height:2.7rem;
+    line-height: 2.7rem;
+    margin-top:0.6rem;
+}
+main .summary .sum-son .book-num .or .read,
+main .summary .sum-son .book-num .or .add{
+    flex:1;
+    text-align: center;
+    margin-right:0.3rem;
+    background: #b2528c;
+    color: #fff;
+    font-size:0.9rem;
+    border-radius: .6rem;
+}
+main .drief{
+    margin:1rem 1.68rem 0 2rem;
+}
+main .drief .jJie{
+    font-size:0.5rem;
+    color: #999;
+}
+main .drief .drief-cont{
+    margin-top:0.65rem;
+}
+main .drief .drief-cont .drief-cont-cont{
+    height:3.5rem;
+    overflow: hidden;
+}
+main .drief .main-sc{
+    margin-top:1.5rem;
+    height:2.5rem;
+    line-height:2.5rem;
+    text-align: center;
+    background: #f9f6f0;
+    color: #707070;
+    border:1px solid #d9d9d9;
+}
+main .book-jje{
+    margin:1rem 1.68rem 1rem 2rem;
+    border-bottom: 1px dashed #adaba6;
+}
+main .book-jje .jJie{
+    font-size:0.5rem;
+    color: #999;
+    margin-bottom:0.5rem;
+}
+main .book-jje .zJie{
+    color: #707070;
+    padding-left:1.24rem;
+}
+main .book-jje .zJie li{
+    margin-bottom:0.6rem;
+}
+
+main .book-jje .look{
+    display: block;
+    width:100%;
+    height:2.4rem;
+    line-height:2.4rem;
+    text-align: center;
+    background: #f9f6f0;
+    color: #707070;
+    border:1px solid #d9d9d9;
+    margin:1rem 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

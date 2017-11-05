@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+a {
+  color: #333;
+  text-decoration: none; }
+
+html, html body {
+  width: 100%;
+  height: 100%; }
+  html body {
+    display: flex;
+    flex-direction: column;
+    background: #f0ece5; }
+    html body header {
+      display: flex;
+      justify-content: space-between;
+      width: 100%;
+      height: 3rem;
+      background: #4a576c; }
+      html body header .logo {
+        display: block;
+        width: 3rem;
+        background: url("img/go-back.png") no-repeat;
+        background-position: center;
+        background-size: 3rem 2rem; }
+      html body header ul {
+        width: 6.45rem;
+        display: flex;
+        flex-flow: row nowrap;
+        list-style: none; }
+        html body header ul li {
+          float: left;
+          flex: 1; }
+          html body header ul li a {
+            display: block;
+            width: 100%;
+            height: 100%; }
+          html body header ul li .download {
+            background: url("./img/download.png") no-repeat;
+            background-position: center;
+            background-size: 1.45rem 1.45rem; }
+          html body header ul li .sunk {
+            background: url("./img/sunk.png") no-repeat;
+            background-position: center;
+            background-size: 1.45rem 1.45rem; }
+          html body header ul li .me {
+            background: url("./img/homepage.png") no-repeat;
+            background-position: center;
+            background-size: 1.45rem 1.45rem; }
+
+/*# sourceMappingURL=style.css.map */

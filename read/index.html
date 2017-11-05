@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header>
+    <div class="hea">
+        <div class="go-back">
+            <a href="../nboy.html">
+                <img src="images/go-back.png" alt="">
+            </a>
+        </div>
+        <div class="hea-ri">
+            <ul>
+                <li><a href="#"><img src="images/download.png" alt=""></a></li>
+                <li><a href="../sunk/css/sunk.html"><img src="images/sunk.png" alt=""></a></li>
+                <li><a href="../nboy.html"><img src="images/homepage.png" alt=""></a></li>
+            </ul>
+        </div>
+    </div>
+</header>
+<main>
+    <div class="summary">
+        <div class="sum-no"></div>
+        <div class="sum-son">
+            <p class="book-name">人皮笔记</p>
+            <a href="#" class="book-img"><img src="" alt=""></a>
+            <div class="book-num">
+                <div class="book-start">
+                    <div></div>
+                    <div></div>
+                </div>
+                <p>评分：<i>9.0</i>分</p>
+                <p>作者：一杆老烟枪</p>
+                <p>类型：灵异</p>
+                <p>状态：连载中</p>
+                <div class="or">
+                    <a href="ZheWen.html" class="read">立即阅读</a>
+                    <a href="../read/login.html" class="add">加入书架</a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div class="drief">
+        <p class="jJie">简介</p>
+        <div class="drief-cont">
+            <div class="drief-cont-cont">
+            一桩离奇死亡事件，一张人皮笔记，一把黑玉古扇，白帆从此踏上了探险寻凶的征程。
+斗僵尸，打怪兽，探古墓，顺带坐在坟头谈恋爱。
+我能想到最浪漫的事，就是和你一起升棺发财！
+            </div>
+            <div class="main-sc">展开所有</div>
+        </div>
+    </div>
+    <div class="book-jje">
+    <p class="jJie">目录</p>
+    <ul class="zJie">
+        <li><a href="ZheWen.html">第001章 离奇死亡</a></li>
+        <li><a href="#">第002章 小镇恐慌</a></li>
+        <li><a href="#">第003章 夜半来客</a></li>
+        <li><a href="#">第004章 人皮笔记</a></li>
+        <li><a href="#">第005章 人皮绳子</a></li>
+    </ul>
+        <a href="#" class="look">查看全部</a>
+    </div>
+</main>
+</body>
+<script>
+    var box=document.querySelector(".drief-cont");
+    var drief=document.querySelector(".drief-cont-cont");
+    var go=document.querySelector(".main-sc");
+    var n=1;
+    go.onclick=function(){
+        if(n==1){
+            drief.style.height=12.5+"rem";
+            this.innerHTML="收起内容";
+        }
+        if(n==2){
+            drief.style.height=3.5+"rem";
+            this.innerHTML="展开所有";
+        }
+        n++;
+        if(n>2) n=1;
+    }
+</script>
+</html>

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/loginstyle.css">
+</head>
+<body>
+<header>
+    <div class="hea">
+        <div class="go-back">
+            <a href="../nboy.html">
+                <img src="images/go-back.png" alt="">
+            </a>
+        </div>
+        <p>登录与注册</p>
+		<div class="hea-ri">
+            <ul>
+                <li><a href="../sunk/css/sunk.html"><img src="images/sunk.png" alt=""></a></li>
+                <li><a href="../nboy.html"><img src="images/homepage.png" alt=""></a></li>
+            </ul>
+        </div>
+    </div>
+</header>
+<main>
+	<div class="main-title">
+		<em>鲸鱼账号登录</em>
+		<i>手机快捷登录</i>
+	</div>
+	<div class="main-cont">
+		<form>
+			<input type="text" placeholder="请输入手机号"/><br />
+			<input type="password" placeholder="请输入密码"/><br />
+			<button>登录</button>
+		</form>
+		<a href="#" class="qqlogin">QQ一键登录</a>
+		<div class="login-ff">
+			<em class="dis-ff">更多登录方式></em>
+			<div class=ff>
+				<a href="#">
+					<img src="images/aaa.png" alt="" />
+				</a>
+				<a href="#">
+					<img src="images/bbb.png" alt="" />
+				</a>
+			</div>
+			<i>找回密码</i>
+		</div>
+		<p><a href="#">—注册新账号—</a></p>
+	</div>
+</main>
+</body>
+<script>
+	var disf = document.querySelector(".dis-ff");
+	var disf_show = document.querySelector(".ff");
+	var n=1;
+	disf.onclick=function (){
+		if(n==2) disf_show.style.display="none";
+		if(n==1) disf_show.style.display="block";
+		n++;
+		if(n>2) n=1;
+		console.log(n)
+	}
+</script>
+</html>

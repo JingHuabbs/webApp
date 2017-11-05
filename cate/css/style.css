@@ -1,0 +1,217 @@
+* {
+    margin: 0;
+    padding: 0; }
+
+a {
+    color: #333;
+    text-decoration: none; }
+html,body{
+    width:100%;
+    height:100%;
+}
+html body, html body main body, html body main .maone body {
+    display: flex;
+    flex-direction: column;
+    background: #f0ece5; }
+html body header{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 3rem;
+    background: #4a576c; }
+html body header .logo, html body main .maone body header .logo {
+    display: block;
+    width: 6rem;
+    height: 2.75rem;
+    background: url("../../images/header.png") no-repeat;
+    background-position: center;
+    background-size: 6rem 2.75rem;
+    margin-left: 1rem; }
+html body header ul, html body main .maone body header ul {
+    width: 6.45rem;
+    display: flex;
+    flex-flow: row nowrap;
+    list-style: none; }
+html body header ul li, html body main .maone body header ul li {
+    float: left;
+    flex: 1; }
+html body header ul li a, html body main .maone body header ul li a {
+    display: block;
+    width: 100%;
+    height: 100%; }
+html body header ul li .download {
+    background: url("../../images/download.png") no-repeat;
+    background-position: center;
+    background-size: 1.45rem 1.45rem; }
+html body header ul li .sunk {
+    background: url("../../images/sunk.png") no-repeat;
+    background-position: center;
+    background-size: 1.45rem 1.45rem; }
+html body header ul li .me {
+    background: url("../../images/me.png") no-repeat;
+    background-position: center;
+    background-size: 1.45rem 1.45rem; }
+html body nav, html body main .maone body nav, html body nav ul, html body nav main .maone body ul, html body main .maone body nav ul {
+    width: 100%;
+    height: 3.5rem; }
+html body nav ul, html body main .maone body nav ul, html body nav main .maone body ul ul {
+    display: flex;
+    list-style: none; }
+html body nav ul li, html body main .maone body nav ul li, html body nav main .maone body ul ul li {
+    flex: 1; }
+html body nav ul li .nav-new {
+    border-bottom: 1px solid red;
+    color: red; }
+html body nav ul li a, html body main .maone body nav ul li a, html body nav main .maone body ul ul li a {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center; }
+html body nav ul li a i, html body main .maone body nav ul li a i, html body nav main .maone body ul ul li a i, html body nav ul li a em, html body main .maone body nav ul li a em, html body nav main .maone body ul ul li a em {
+    font-style: normal;
+    font-weight: normal; }
+html body nav ul li a img, html body main .maone body nav ul li a img, html body nav main .maone body ul ul li a img {
+    width: 2.1rem;
+    height: 2.1rem; }
+html body nav ul li a em, html body main .maone body nav ul li a em, html body nav main .maone body ul ul li a em {
+    font-size: 0.24rem; }
+html body main{
+    width:100%;
+    height:100%;
+    overflow-y: auto;
+}
+html body main h3{
+    margin-left: 2rem;
+    color: #999;
+    font-size: .97rem;
+    font-weight: 400;
+    margin-top: .6rem;
+    margin-bottom: .4rem;
+}
+html body main .boy,html body main .girl{
+    width:100%;
+    list-style: none;
+    display: flex;
+    flex-flow: row wrap;
+}
+html body main .ma-le{
+    margin-left: 2rem !important;
+}
+html body main li{
+    width: 7.6rem;
+    height:3rem;
+    background: #fff;
+    margin:0.45rem 0.45rem;
+    -webkit-border-radius:5%;
+    -moz-border-radius:5%;
+    border-radius:5%;
+}
+html body main li a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height:3rem;
+}
+html body main .foot{
+    width:100%;
+    height:3rem;
+    text-align: center;
+    line-height:3rem;
+    color: #b2528c;
+    font-size: 0.8rem;
+}
+html body main .foot p a{
+    color: #b2528c;}
+html body main .foot p span{
+    margin: 0 0.4rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

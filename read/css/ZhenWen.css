@@ -1,0 +1,310 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+html,body{
+	width: 100%;
+	height: 100%;
+}
+html{
+	background: #fafafa;
+	position: relative;
+}
+.ZhenWen .zhw-cen{
+	position:fixed;
+	top: 3rem;
+	left: 0;
+	width: 100%;
+	height: 32rem;
+	z-index: 100;
+}
+
+.ZhenWen .ZHJ{
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 1.4rem;
+	text-indent: 1rem;
+	background: #fafafa;
+}.ZhenWen .ZHJ span{
+	font-size: 0.8rem;
+}
+.ZhenWen .cont{
+	padding-top: 1.5rem;
+	margin-left: 1.24rem;
+	margin-right: 1.24rem;
+}
+.ZhenWen .cont .cont-name{
+	text-indent: 1.26rem;
+	font-size: 1.36rem;
+	margin-bottom: 1.6rem;
+	margin-top: 0.6rem;
+}
+.ZhenWen .cont p{
+	text-indent: 2rem;
+	font-size: 1.1rem;
+	margin-top: 0.4rem;
+}
+
+
+
+
+.dij{
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	display: none;
+}
+.dij .D-box{
+	width: 100%;
+	height: 100%;
+	position: relative;
+}
+.dij .D-box .yaya{
+	position: absolute;
+	bottom: 0rem;
+	left: 0;
+	z-index: 200;
+	width: 100%;
+	height: 6rem;
+	background: #999;
+	transition:all 0.2s;
+}
+/* 选背景色 */
+.dij .D-box .yaya .bgc{
+	width: 100%;
+	height: 2.5rem;
+}
+.dij .D-box .yaya .bgc ul{
+	width: 100%;
+	height: 2.5rem;
+	list-style: none;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.dij .D-box .yaya .bgc ul li{
+	width: 3rem;
+	height: 2rem;
+	border-radius: 1.6rem;
+	text-align: center;
+	line-height: 2rem;
+	font-size: 0.8rem;
+}
+.dij .D-box .yaya .bgc ul li:nth-child(1){
+	background:#fafafa;
+	color: #2b2b2b;
+}
+.dij .D-box .yaya .bgc ul li:nth-child(2){
+	background:#c5dbb5;
+	color: #394539;
+}
+.dij .D-box .yaya .bgc ul li:nth-child(3){
+	background:#cef1fc;
+	color: #212b33;
+}
+.dij .D-box .yaya .bgc ul li:nth-child(4){
+	background:#ffe2f0;
+	color: #27230d;
+}
+.dij .D-box .yaya .bgc ul li:nth-child(5){
+	background:#b6b0a0;
+	color: #323433;
+}
+.dij .D-box .yaya .bgc ul .nnow{
+	border: 1px solid hotpink;
+}
+/* 字体大小 */
+.dij .D-box .yaya .F-size{
+	width: 100%;
+	height: 1.24rem;
+	margin-top:0.24rem;
+	margin-bottom: 0.5rem;
+}
+.dij .D-box .yaya .F-size ul{
+	height: 1.24rem;
+	list-style: none;
+	margin-left: 1rem;
+	margin-right: 1rem;
+}
+.dij .D-box .yaya .F-size ul li{
+	float: left;
+	width: 6rem;
+	height: 1.24rem;
+	border: 1px solid #fff;
+	color: #fff;
+	border-radius: 2rem;
+	text-align: center;
+	line-height: 1.24rem;
+	font-size: 0.7rem;
+	margin-left: 1.85rem;
+}
+.dij .D-box .yaya .F-size ul li:first-child{
+	border: none;
+	width: 2rem;
+	height:1.24rem;
+	margin-left: 0;
+}
+/* 翻页方式 */
+.dij .D-box .yaya .Fy{
+	width: 100%;
+	height: 1.24rem;
+	margin-top: 0.24rem;
+}
+.dij .D-box .yaya .Fy ul{
+	height: 1.24rem;
+	list-style: none;
+	margin-left: 1rem;
+	margin-right: 1rem;
+}
+.dij .D-box .yaya .Fy ul li{
+	float: left;
+	width: 6rem;
+	height: 1.24rem;
+	border: 1px solid #fff;
+	color: #fff;
+	border-radius: 2rem;
+	text-align: center;
+	line-height: 1.24rem;
+	font-size: 0.7rem;
+	margin-left: 1.85rem;
+}
+.dij .D-box .yaya .Fy ul li:first-child{
+	border: none;
+	width: 2rem;
+	height:1.24rem;
+	margin-left: 0;
+}
+.dij .D-box .yaya .Fy .nnoow{
+	border: 1px solid red;
+}
+/*  目录 */
+
+
+/*   */
+.dij .D-head{
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 2.6rem;
+	background: black;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.dij .D-head .go-back{
+	display: block;
+	width: 1.45rem;
+	height: 1.45rem;
+	background: url("../../images/go-back.png") no-repeat;
+	background-size: 1.45rem 1.45rem;
+}
+.dij .D-head ul{
+	list-style: none;
+	width: 8rem;
+}
+.dij .D-head ul li{
+	float: left;
+	margin-right: 1rem;
+}
+.dij .D-head ul li a>img{
+	width: 1.45rem;
+	height: 1.45rem;
+}
+.dij .D-foot{
+	position: fixed;
+	bottom:0;
+	left: 0;
+	width: 100%;
+	height: 6rem;
+	background: black;
+}
+.dij .D-foot .Df-h{
+	display: flex;
+	justify-content=space-between;
+	height: 2rem;
+	margin-left: 1.68rem;
+	margin-right: 1.68rem;
+}
+.dij .D-foot .Df-h em{
+	line-height: 2rem;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 0.8rem;
+	color: white;
+}
+/* 进度条 */
+.dij .D-foot .Df-h .JD{
+	position: relative;
+	flex: 1;
+	margin-left: 0.68rem;
+	margin-right: 0.68rem;width: 100%;
+	height: 0.24rem;
+	background: white;
+	margin-top: 1rem;
+}
+
+.dij .D-foot .Df-h .JD .qiu{
+	position: absolute;
+	top: -0.17rem;
+	left: 0;
+	width: 0.6rem;
+	height: 0.6rem;
+	border-radius: 50%;
+	background: white;
+}
+.dij .D-foot .Df-h .JD .dao{
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 100;
+	height: 0.24rem;
+	background: red;
+}
+.dij .D-foot .Df-f{
+	height: 100%;
+	color: white;
+}
+.dij .D-foot .Df-f ul{
+	list-style: none;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: space-around;
+}
+.dij .D-foot .Df-f ul li{
+	display: flex;
+	flex-direction: column;
+}
+.dij .D-foot .Df-f ul .ML em{
+	width: 2rem;
+	height: 2rem;
+	background: url("../images/ml.png") no-repeat;
+	background-size: 2rem 2rem;
+	margin-bottom: 0.32rem;
+}
+.dij .D-foot .Df-f ul .SZ em{
+	width: 2rem;
+	height: 2rem;
+	background: url("../images/sz.png") no-repeat;
+	background-size: 2rem 2rem;
+	margin-bottom: 0.32rem;
+}
+.dij .D-foot .Df-f ul .OR em{
+	width: 2rem;
+	height: 2rem;
+	background: url("../images/yj.png") no-repeat;
+	background-size: 2rem 2rem;
+	margin-bottom: 0.32rem;
+}
+
+
+
+
+
+
+

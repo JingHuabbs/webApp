@@ -1,0 +1,179 @@
+*{
+    margin:0;
+    padding:0;}
+a{
+    color: #333;
+    text-decoration: none;
+}
+html,body{
+    width:100%;
+    height:100%;
+}
+body{
+    display: flex;
+    flex-direction:column;
+}
+header{
+    width:100%;
+    height:3rem;
+}
+header .hea{
+    display: flex;
+    justify-content: space-between;
+    width:100%;
+    height:3rem;
+    background: #4a576c;
+}
+header .hea .go-back{
+    width:2rem;
+    height:2rem;
+    margin:0.5rem 0 0 0.5rem;
+}
+header .hea .go-back a{
+    width:100%;
+    height:100%;
+}
+header .hea .go-back a img{
+    width:2rem;
+    height:2rem;
+}
+header .hea p{
+	flex: 1;
+	color: #fff;
+	font-size: 1.24rem;
+	font-style: normal;
+	font-weight: 400;
+	text-align: center;
+	line-height: 3rem;
+}
+header .hea .hea-ri{
+    width:5rem;
+    height:100%;
+}
+header .hea .hea-ri ul{
+    display: flex;
+    list-style: none;
+    width:5rem;
+    height:100%;
+    justify-content:center;
+    align-items: center;
+}
+header .hea .hea-ri ul li{
+    flex: 1;
+}
+header .hea .hea-ri ul li img{
+    width:1.5rem;
+    height:1.5rem;
+}
+main{
+	position: relative;
+	width: 100%;
+}
+main .main-title{
+	padding-top: 1.6rem;
+	margin-bottom: 1rem;
+	text-align: center;
+}
+main .main-title em,i{
+	font-style: normal;
+	font-weight: normal;
+}
+main .main-title em{
+	font-size: 1.24rem;
+	margin-right: 2.5rem;
+}
+main .main-title i{
+	font-size: 0.8rem;
+	color: #707070;
+	margin-left: 2.5rem;
+}
+main .main-cont{
+	position: absolute;
+	top: 3.25rem;
+	left: 50%;
+	transform: translate(-50%,0%);
+	width: 17.4rem;
+	margin-top: 1rem;
+}
+main .main-cont form input{
+	padding: 0.72rem 6.3rem 0.72rem 0.24rem;
+	margin-bottom: 1.35rem;
+	border: 1px solid #eee;
+	text-indent: 1rem;
+	border-radius: 0.24rem;
+}
+main .main-cont form button{
+	width: 17.3rem;
+	height: 2.5rem;
+	text-align: center;
+	line-height: 2.5rem;
+	border: none;
+	outline: none;
+	background: rgba(247,55,49,.5);
+	color: white;
+	font-size: 1.26rem;
+	border-radius: 0.24rem;
+}
+main .main-cont .qqlogin{
+	display: block;
+	width: 17.3rem;
+	height: 2.5rem;
+	text-align: center;
+	line-height: 2.5rem;
+	background: #389bff;
+	color: white;
+	font-size: 1.1rem;
+	margin-top: 1.26rem;
+	border-radius: 0.24rem;
+}
+main .main-cont .login-ff{
+	display: flex;
+	justify-content: space-between;
+	width: 17.3rem;
+	height: 2.5rem;
+	color: #707070;
+	margin-top: 1.26rem;
+}
+main .main-cont .login-ff em,i{
+	font-size: 0.8rem;
+	font-style: normal;
+	font-weight: normal;
+}
+main .main-cont .login-ff .ff{
+display: none;
+	flex: 1;
+}
+main .main-cont .login-ff .ff img{
+	margin-left: 1.2rem;
+	width: 2rem;
+	height: 2rem;
+} 
+main .main-cont p{
+	text-align: center;
+	color: #707070;
+	font-size: 0.8rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
